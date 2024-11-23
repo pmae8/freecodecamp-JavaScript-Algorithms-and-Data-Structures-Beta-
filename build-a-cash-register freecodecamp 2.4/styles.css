@@ -1,0 +1,90 @@
+body {
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e); 
+  background-size: 400px 400px; 
+  font-family: 'IBM Plex Mono', monospace; 
+  color: #60a5fa; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.container {
+  background-color: #1e293b; 
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(96, 165, 250, 0.3);
+  text-align: center;
+  max-width: 500px;
+  width: 90vw;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  background-clip: text; 
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, 1  #60a5fa, #38bdf8, #0ea5e9);
+}
+
+input[type="number"] {
+  width: 150px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #60a5fa;
+  border-radius: 5px;
+  background-color: #111827;
+  color: #60a5fa;
+  font-size: 16px;
+  caret-color: #38bdf8; 
+}
+
+input[type="number"]::selection {
+  background-color: #38bdf8; 
+  color: #111827;
+}
+
+button {
+  background-color: #60a5fa;
+  color: #111827;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 8px; 
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 4px rgba(96, 165, 250, 0.5);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(96, 165, 250, 0.8);
+}
+
+#total {
+  background-color: #1e293b;
+  color: #60a5fa;
+  padding: 10px;
+  margin-top: 20px;
+  border: 2px solid #60a5fa;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.change-list {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+#change-due {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #60a5fa;
+  text-align: center;
+}

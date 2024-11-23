@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cash Register</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cash Register</h1>
+    <label for="cash">Cash Provided:</label>
+    <input type="number" id="cash" name="cash" min="0" step="0.01">
+    <button id="purchase-btn">Purchase</button>
+    <div id="total">Total: $3.26</div>
+    <div class="change-list">
+      Change in drawer:
+      <div>Pennies: $1.01</div>
+      <div>Nickels: $2.05</div>
+      <div>Dimes: $3.1</div>
+      <div>Quarters: $4.25</div>
+      <div>Ones: $90</div>
+      <div>Fives: $55</div>
+      <div>Tens: $20</div>
+      <div>Twenties: $60</div>
+      <div>Hundreds: $100</div>
+    </div>
+    <div id="change-due"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

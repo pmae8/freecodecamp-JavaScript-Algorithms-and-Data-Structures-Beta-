@@ -1,0 +1,58 @@
+body {
+  font-family: 'Poppins', sans-serif; /* Use a cool font */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #d3959b, #bfe6ba); /* Gradient background */
+  color: #333; /* Dark text color for contrast */
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #b55464; /* A reddish color for the heading */
+}
+
+#number {
+  width: calc(100% - 22px);
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-size: 1.2em;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#convert-btn {
+  background-color: #a6808c; /* A muted purple button */
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#convert-btn:hover {
+  background-color: #7a5260; /* Darker shade on hover */
+}
+
+#output {
+  margin-top: 30px;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #5d4037; /* A brownish color for the output */
+}
